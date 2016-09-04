@@ -1,0 +1,15 @@
+<?php
+	include("conexion.php");
+	include("ingreso.php");
+	if($ingreso=="si")
+	{
+		/*-----------*/
+		/*-----------*/
+		include("cabecera.php");
+		include("menu.php");
+		/*-----------*/
+		/*-----------*/
+		include("inferior.php");
+	}
+	mysqli_close($link);
+?>
